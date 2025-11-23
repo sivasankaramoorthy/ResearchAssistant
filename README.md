@@ -235,9 +235,9 @@ Agent: "I didn't catch the company name. Please enter a company like 'Apple' or 
 
 ## 🎨 Design Decisions
 
-### 1. Model Selection: Mistral-7B-Instruct-v0.2
+### 1. Model Selection: Llama-2-7b-chat-hf
 
-**Why Mistral over Llama-2?**
+**Why  Llama-2?**
 - ✅ No gating requirements (no HuggingFace token approval needed)
 - ✅ Better instruction-following capabilities
 - ✅ More efficient context handling (8K context window)
